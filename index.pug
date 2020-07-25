@@ -1,0 +1,676 @@
+doctype html
+html
+  head
+    title Toys Store
+    // for-mobile-apps
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(http-equiv='Content-Type', content='text/html; charset=utf-8')
+    // //for-mobile-apps
+    // Custom Theme files
+    link(href='css/bootstrap.css', rel='stylesheet', type='text/css', media='all')
+    link(href='css/animate.min.css', rel='stylesheet')
+    link(href='css/styles.css', rel='stylesheet', type='text/css', media='all')
+    link(href='css/media%20queries.css', rel='stylesheet', type='text/css', media='all')
+    link(rel='stylesheet', href='css/flexslider.css', type='text/css', media='screen')
+    // //Custom Theme files
+    // web-fonts
+    link(href='css/fontawesome-all.css', rel='stylesheet')
+    // web-fonts
+  body
+    // header
+    .header
+      .top-header.navbar.navbar-default
+        // header-one
+        .container
+          .nav.navbar-nav.wow.fadeInLeft.animated(data-wow-delay='.5s')
+            p
+              | Welcome to Toys Store 
+              a(href='#') Register 
+              |  Or 
+              a(href='#') Sign In 
+          .nav.navbar-nav.navbar-right.social-icons.wow.fadeInRight.animated(data-wow-delay='.5s')
+            ul
+              li
+                a.fab.fa-pinterest-p(href='#')
+              li
+                a.fab.fa-facebook-f(href='#')
+              li
+                a.fab.fa-instagram(href='#')
+              li
+                a.fab.fa-behance(href='#')  
+              li
+                a.fab.fa-youtube(href='#')  
+              li
+                a.fab.fa-vimeo-v(href='#')  
+          .clearfix  
+      // header-two
+      .header-two.navbar.navbar-default
+        .container
+          .nav.navbar-nav.header-two-left
+            ul
+              li
+                i.fas.fa-mobile-alt(aria-hidden='true')
+                | +1234 567 892
+              li
+                i.far.fa-envelope(aria-hidden='true')
+                a(href='#') mail@example.com
+          .nav.navbar-nav.logo.wow.zoomIn.animated(data-wow-delay='.7s')
+            h1
+              a(href='index.html')
+                | Toys 
+                b Store
+                span.tag Everything for Kids world 
+          .nav.navbar-nav.navbar-right.header-two-right
+            .header-right.my-account
+              a(href='#')
+                span.fas.fa-map-marker-alt(aria-hidden='true')
+                |  CONTACT US
+            .header-right.cart
+              a(href='#')
+                span.fas.fa-shopping-cart(aria-hidden='true')
+              .cart-box
+                p
+                  a.empty(href='#') Empty cart
+                .clearfix  
+            .clearfix  
+          .clearfix  
+      // header-three
+      .top-nav.navbar.navbar-default
+        .container
+          nav.navbar(role='navigation')
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+            // navbar-header
+            #bs-example-navbar-collapse-1.collapse.navbar-collapse
+              ul.nav.navbar-nav.top-nav-info
+                li
+                  a.active(href='index.html') Home
+                li.dropdown.grid
+                  a.dropdown-toggle.list1(href='#', data-toggle='dropdown')
+                    | Accessories
+                    b.caret
+                  ul.dropdown-menu.multi-column.menu-two.multi-column3
+                    .row
+                      .col-sm-4.menu-grids
+                        ul.multi-column-dropdown
+                          li
+                            a.list(href='#') Jewellery
+                          li
+                            a.list(href='#') Hair bands & Clips
+                          li
+                            a.list(href='#') Bangles 
+                          li
+                            a.list(href='#') Caps & Belts
+                          li
+                            a.list(href='#') Rain wear
+                          li
+                            a.list(href='#') Bags
+                      .col-sm-8.menu-grids
+                        a(href='products.html')
+                          .new-add
+                            h5
+                              | 30% OFF 
+                              br
+                              |  Today Only
+                      .clearfix  
+                li.dropdown.grid
+                  a.dropdown-toggle.list1(href='#', data-toggle='dropdown')
+                    | Toys 
+                    b.caret
+                  ul.dropdown-menu.multi-column.multi-column4
+                    .row
+                      .col-sm-4.menu-grids.menulist1
+                        h4 BABY
+                        ul.multi-column-dropdown
+                          li
+                            a.list(href='#') Rockers
+                          li
+                            a.list(href='#') Rattles
+                          li
+                            a.list(href='#') Stroller Toys
+                          li
+                            a.list(href='#') Musical Toys 
+                          li
+                            a.list(href='#') Doll Houses
+                          li
+                            a.list(href='#') Play Sets
+                        ul.multi-column-dropdown
+                          li
+                            a.list(href='#') Toys Dolls
+                          li
+                            a.list(href='#') Pacifiers
+                          li
+                            a.list(href='#') Building Sets
+                          li
+                            a.list(href='#') Bath Toys
+                          li
+                            a.list(href='#') Soft Toys
+                          li
+                            h6
+                              a.list(href='#') Special Off
+                      .col-sm-2.menu-grids
+                        h4 Pretend Play
+                        ul.multi-column-dropdown
+                          li
+                            h6
+                              a.list(href='#') Video Games
+                          li
+                            a.list(href='#') Kitchen Sets
+                          li
+                            a.list(href='#') Sand Toys
+                          li
+                            a.list(href='#') Tool Sets
+                          li
+                            a.list(href='#') Bath Toys
+                          li
+                            a.list(href='#') Medical Set
+                      .col-sm-2.menu-grids
+                        h4 Outdoor
+                        ul.multi-column-dropdown
+                          li
+                            a.list(href='#') Swimming
+                          li
+                            a.list(href='#') Rideons 
+                          li
+                            a.list(href='#') Scooters
+                          li
+                            a.list(href='#') Remote Control
+                          li
+                            a.list(href='#') Animals
+                          li
+                            a.list(href='#') Make up
+                      .col-sm-4.menu-grids
+                        a(href='#')
+                          .new-add
+                            h5
+                              | 40% OFF 
+                              br
+                              |  Today Only
+                      .clearfix  
+                li
+                  a(href='#') Special Offers
+              .clearfix  
+              // //navbar-collapse
+              header.cd-main-header
+                ul.cd-header-buttons
+                  li
+                    a.cd-search-trigger(href='#cd-search')
+                      span
+                // cd-header-buttons
+                // //navbar-header
+          #cd-search.cd-search
+            form
+              input(type='search', placeholder='Search...')
+    // //header
+    // banner
+    .banner
+      .container
+        .banner-text
+          .col-sm-5.banner-left.wow.fadeInLeft.animated(data-wow-delay='.5s')
+            h2 On Toys Collections
+            h3 Coming Soon 
+            h4 Our New Collections
+            .count.main-row
+              ul#example
+                li
+                  span.hours 00
+                  p.hours_text Hours
+                li
+                  span.minutes 00
+                  p.minutes_text Minutes
+                li
+                  span.seconds 00
+                  p.seconds_text Seconds
+              .clearfix  
+          .col-sm-7.banner-right.wow.fadeInRight.animated(data-wow-delay='.5s')
+            section.slider.grid
+              .flexslider
+                ul.slides
+                  li
+                    h4 30%
+                    img(src='images/b1.png', alt='')
+                  li
+                    h4 25%
+                    img(src='images/b2.png', alt='')
+                  li
+                    h4 50%
+                    img(src='images/b3.png', alt='')
+          .clearfix  
+    // //banner
+    // new
+    .new
+      .container
+        .title-info.wow.fadeInUp.animated(data-wow-delay='.5s')
+          h3.title
+            | New 
+            span Arrivals
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur 
+        .new-info
+          .col-md-3.new-grid.simpleCart_shelfItem.wow.flipInY.animated(data-wow-delay='.5s')
+            .new-top
+              a(href='#')
+                img.img-responsive(src='images/g12.jpg', alt='')
+              .new-text
+                ul
+                  li
+                    a.item_add(href='#')  Add to cart
+                  li
+                    a(href='#') Quick View 
+                  li
+                    a(href='#') Show Details 
+            .new-bottom
+              h5
+                a.name(href='#') Baby Red Dress 
+              .rating
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span ☆
+              .ofr
+                p.pric1
+                  del $80.00
+                p
+                  span.item_price $50.00
+          .col-md-3.new-grid.new-mdl.simpleCart_shelfItem.wow.flipInY.animated(data-wow-delay='.7s')
+            .new-top
+              a(href='#')
+                img.img-responsive(src='images/g8.jpg', alt='')
+              .new-text
+                ul
+                  li
+                    a.item_add(href='#')  Add to cart
+                  li
+                    a(href='#') Quick View 
+                  li
+                    a(href='#') Show Details 
+            .new-bottom
+              h5
+                a.name(href='#') Crocs Sandals 
+              .rating
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span ☆
+              .ofr
+                p
+                  span.item_price $50.00
+          .col-md-3.new-grid.new-mdl1.simpleCart_shelfItem.wow.flipInY.animated(data-wow-delay='.9s')
+            .new-top
+              a(href='#')
+                img.img-responsive(src='images/g8.jpg', alt='')
+              .new-text
+                ul
+                  li
+                    a.item_add(href='#')  Add to cart
+                  li
+                    a(href='#') Quick View 
+                  li
+                    a(href='#') Show Details 
+            .new-bottom
+              h5
+                a.name(href='#') Pink Sip Cup 
+              .rating
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span ☆
+              .ofr
+                p
+                  span.item_price $150.00
+          .col-md-3.new-grid.simpleCart_shelfItem.wow.flipInY.animated(data-wow-delay='1.1s')
+            .new-top
+              a(href='#')
+                img.img-responsive(src='images/g12.jpg', alt='')
+              .new-text
+                ul
+                  li
+                    a.item_add(href='#')  Add to cart
+                  li
+                    a(href='#') Quick View 
+                  li
+                    a(href='#') Show Details 
+            .new-bottom
+              h5
+                a.name(href='#') Child Print Bike 
+              .rating
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span.on ☆
+                span ☆
+              .ofr
+                p.pric1
+                  del $50.00
+                p
+                  span.item_price $20.00
+          .clearfix  
+    // //new
+    // gallery
+    .gallery
+      .container
+        .title-info.wow.fadeInUp.animated(data-wow-delay='.5s')
+          h3.title
+            | Popular
+            span  Products
+          p Lorem ipsum dolor sit amet, consectetur adipiscing elit curabitur 
+        .gallery-info
+          .col-md-3.gallery-grid.wow.flipInY.animated(data-wow-delay='.5s')
+            a(href='#')
+              img.img-responsive(src='images/g3.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Toy one 
+              p
+                span.item_price 100$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.gallery-grid1.wow.flipInY.animated(data-wow-delay='.7s')
+            a(href='#')
+              img.img-responsive(src='images/g8.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Tou Two
+              p
+                span.item_price 79$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.gallery-grid2.wow.flipInY.animated(data-wow-delay='.9s')
+            a(href='#')
+              img.img-responsive(src='images/g3.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Toy Three
+              p
+                span.item_price 30$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.wow.flipInY.animated(data-wow-delay='1.1s')
+            a(href='#')
+              img.img-responsive(src='images/g4.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Toy Four
+              p
+                span.item_price 15$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.wow.flipInY.animated(data-wow-delay='.5s')
+            a(href='#')
+              img.img-responsive(src='images/g12.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Toy One
+              p
+                span.item_price 60$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.gallery-grid1.wow.flipInY.animated(data-wow-delay='.7s')
+            a(href='#')
+              img.img-responsive(src='images/g12.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Toy three
+              p
+                span.item_price 80$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.gallery-grid2.wow.flipInY.animated(data-wow-delay='.9s')
+            a(href='#')
+              img.img-responsive(src='images/g7.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Toy one
+              p
+                span.item_price 110$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .col-md-3.gallery-grid.wow.flipInY.animated(data-wow-delay='1.1s')
+            a(href='#')
+              img.img-responsive(src='images/g8.jpg', alt='')
+            .gallery-text.simpleCart_shelfItem
+              h5
+                a.name(href='#') Police Bike
+              p
+                span.item_price 300$
+              h4.sizes
+                | Sizes: 
+                a(href='#')  s
+                |  - 
+                a(href='#') m
+                |  - 
+                a(href='#') l
+                |  - 
+                a(href='#') xl
+              ul
+                li
+                  a(href='#')
+                    span.fas.fa-plus(aria-hidden='true')
+                li
+                  a.item_add(href='#')
+                    span.fas.fa-shopping-cart(aria-hidden='true')
+                li
+                  a(href='#')
+                    span.far.fa-heart(aria-hidden='true')
+          .clearfix
+    // //gallery
+    // trend
+    .trend.wow.zoomIn.animated(data-wow-delay='.5s')
+      .container
+        .trend-info
+          section.slider.grid
+            .flexslider.trend-slider
+              ul.slides
+                li
+                  .col-md-5.trend-left
+                    img(src='images/t4.png', alt='')
+                  .col-md-7.trend-right
+                    h4
+                      | TOP 10 TRENDS 
+                      span FOR YOU
+                    h5 Flat 20% OFF
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus, justo ac volutpat vestibulum, dolor massa pharetra nunc, nec facilisis lectus nulla a tortor. Duis ultrices nunc a nisi malesuada suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eu bibendum felis. Sed viverra dapibus tincidunt.
+                  .clearfix
+                li
+                  .col-md-5.trend-left
+                    img(src='images/t2.png', alt='')
+                  .col-md-7.trend-right
+                    h4
+                      | TOP 10 TRENDS 
+                      span FOR YOU
+                    h5 Flat 20% OFF
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus, justo ac volutpat vestibulum, dolor massa pharetra nunc, nec facilisis lectus nulla a tortor. Duis ultrices nunc a nisi malesuada suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eu bibendum felis. Sed viverra dapibus tincidunt.
+                  .clearfix
+                li
+                  .col-md-5.trend-left
+                    img(src='images/t3.png', alt='')
+                  .col-md-7.trend-right
+                    h4
+                      | TOP 10 TRENDS 
+                      span FOR YOU
+                    h5 Flat 20% OFF
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus, justo ac volutpat vestibulum, dolor massa pharetra nunc, nec facilisis lectus nulla a tortor. Duis ultrices nunc a nisi malesuada suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eu bibendum felis. Sed viverra dapibus tincidunt.
+                  .clearfix
+                li
+                  .col-md-5.trend-left
+                    img(src='images/t4.png', alt='')
+                  .col-md-7.trend-right
+                    h4
+                      | TOP 10 TRENDS 
+                      span FOR YOU
+                    h5 Flat 20% OFF
+                    p
+                      | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus, justo ac volutpat vestibulum, dolor massa pharetra nunc, nec facilisis lectus nulla a tortor. Duis ultrices nunc a nisi malesuada suscipit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eu bibendum felis. Sed viverra dapibus tincidunt.
+                  .clearfix
+    // //trend
+    // footer
+    .footer
+      .container
+        .footer-info
+          .col-md-4.footer-grids.wow.fadeInUp.animated(data-wow-delay='.5s')
+            h4.footer-logo
+              a(href='index.html')
+                | Toys 
+                b Store
+                span.tag Everything for Kids world 
+            p © 2020 Toys Store . All rights reserved
+          .col-md-4.footer-grids.wow.fadeInUp.animated(data-wow-delay='.7s')
+            h3 Popular
+            ul
+              li
+                a(href='#') About Us
+              li
+                a(href='#') new
+              li
+                a(href='#') Contact Us
+              li
+                a(href='#') Wishlist
+          .col-md-4.footer-grids.wow.fadeInUp.animated(data-wow-delay='.9s')
+            h3 Subscribe
+            p
+              | Sign Up Now For More Information 
+              br
+              |  About Our Store
+            form
+              input(type='text', placeholder='Enter Your Email', required='')
+              input(type='submit', value='Go')
+          .clearfix
+    // //footer
+    // Js Scripts
+    script(src='js/jquery-1.11.1.min.js')
+    script(src='js/bootstrap.js')
+    script(src='js/jquery.countdown.min.js')
+    script(src='js/jquery.flexslider.js')
+    script(src='js/move-top.js')
+    script(src='js/easing.js')
+    script(src='js/wow.min.js')
+    script(src='js/main.js')
+    // //Js Scripts
